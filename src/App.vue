@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CustomLink />
+  <NativeLink />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CustomLink from './components/CustomLink.vue';
+import NativeLink from './components/NativeLInk.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CustomLink,
+    NativeLink
   }
 }
 </script>
