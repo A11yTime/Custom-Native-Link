@@ -2,7 +2,7 @@
     <div class="custom-shade">
         <h1>Custom Link</h1>
         <div>
-        <div class="custom-link" tabindex="0" onclick="location.href='https://www.williams-sonoma.com/'">I'm Custom</div>
+        <div class="custom-link" tabindex="0" @keyup="linktarget" onclick="location.href='https://www.williams-sonoma.com/'">I'm Custom</div>
     </div>
     </div>
 </template>
